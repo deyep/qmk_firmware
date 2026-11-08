@@ -55,3 +55,12 @@
 #    define RGB_MATRIX_FRAMEBUFFER_EFFECTS
 
 #endif
+
+// hold & tapping 判定時間
+#define TAPPING_TERM 200
+
+// 他キーが押された瞬間に“ホールド確定”にする
+#define HOLD_ON_OTHER_KEY_PRESS
+
+// コンボ判定時間
+#define COMBO_TERM 50
